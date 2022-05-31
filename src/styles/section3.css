@@ -1,0 +1,46 @@
+.section3{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(235, 237, 240);
+    margin-bottom: 15px;
+}
+.heading{
+    font-size:x-large;
+    padding: 40px;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+    height: 330px;
+}
+.rad{
+    border-radius: 10px;
+    width: 370px;
+    height: 150px;
+}
+.content .content-1{
+    top:0px;
+    left: 100px;
+    position: absolute;
+    width:600px
+}
+.content .content-2{
+    top:0px;
+    right: 100px;
+    position: absolute;
+    width:600px
+}
+.content .content-3{
+    bottom:5px;
+    left: 100px;
+    position: absolute;
+    width:600px
+}
+.content .content-4{
+    bottom:5px;
+    right: 100px;
+    position: absolute;
+    width:600px
+}

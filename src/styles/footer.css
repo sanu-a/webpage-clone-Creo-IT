@@ -1,0 +1,51 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.footer .heading{
+    text-align: start;
+    color: blue;
+    font-size: 30px;
+    font-weight: 800;
+}
+.location{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px;
+}
+.loc{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    margin-right: 30px;
+}
+.loc-icon{
+    margin-right: 20px;
+}
+.email{
+    margin-bottom: 10px;
+}
+.links{
+    margin: 40px 30px;
+    display: flex;
+    flex-direction: row;
+}
+.upper{
+    display: flex;
+    flex-direction: row;
+}
+.for-you{
+    width: 300px;
+}
+.for-heading{
+    font-size: large;
+    font-weight: 500;
+}
+.for-content{
+    margin-top: 15px;
+    color: rgb(126, 125, 162);
+}
+.footer-desc{
+    text-align: center;
+}

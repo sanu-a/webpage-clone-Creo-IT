@@ -1,0 +1,26 @@
+.category{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading{
+    text-align: center;
+    font-size: large;
+    font-weight: 700;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    margin: 30px 50px;
+    
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.list img{
+    width: 160px;
+    height: 135px;
+}
